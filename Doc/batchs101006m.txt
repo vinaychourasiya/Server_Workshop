@@ -1,0 +1,393 @@
+Environment: User provided options:
+  problem_file = batchs101006m.nl
+  log_level = 3
+  bnb_time_limit = 3600
+  nlp_engine = IPOPT
+Environment: End of user provided options.
+
+qg: Minotaur version 0.2 patch 1 git revision v0.2.1-84-g70423a7
+qg: Quesada-Grossmann (LP/NLP) algorithm for convex MINLP
+AMPLInterface: problem type is MINLP
+qg: time used in reading instance = 0.00
+qg: objective sense: minimize
+qg: handlers used in presolve:
+qg: LinearHandler (Handling linear constraints).
+qg: NlPresHandler (presolving nonlinear constraints).
+Presolver: Presolving ... 
+Presolver: Finished presolving.
+LinearHandler: Statistics for presolve by Linear Handler:
+LinearHandler: Number of iterations           = 5
+LinearHandler: Time taken in initial presolve = 0.02
+LinearHandler: Time taken in node presolves   = 0.00
+LinearHandler: Number of variables deleted    = 9
+LinearHandler: Number of constraints deleted  = 329
+LinearHandler: Number of vars set to binary   = 0
+LinearHandler: Number of vars set to integer  = 0
+LinearHandler: Times variables tightened      = 95
+LinearHandler: Times constraints tightened    = 0
+LinearHandler: Times coefficients improved    = 0
+LinearHandler: Times binary variable relaxed  = 0
+LinearHandler: Changes in nodes               = 0
+NlPresHandler: Statistics for presolve by NlPresHandler:
+NlPresHandler: Number of iterations           = 3
+NlPresHandler: Time taken in initial presolve = 0.00
+NlPresHandler: Number of variables deleted    = 0
+NlPresHandler: Number of constraints deleted  = 0
+NlPresHandler: Number of perspective reform.  = 0
+NlPresHandler: Times variables tightened      = 10
+NlPresHandler: Times constraints tightened    = 0
+NlPresHandler: Times coefficients improved    = 0
+NlPresHandler: Times quad. changed to conic   = 0
+NlPresHandler: Changes in nodes               = 0
+qg: handlers used:
+qg: LinearHandler (Handling linear constraints).
+qg: IntVarHandler (Handling integrality of variables).
+qg: QG Handler (Quesada-Grossmann)
+qg: RCHandler (Reduced Cost Strengthening)
+qg: brancher used = ReliabilityBrancher
+branch-and-bound: starting branch-and-bound
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+branch-and-bound: time = 5.1 lb = 762005.1984 ub = 769440.3758 gap% = 0.97 nodes processed = 1704 left = 1021
+branch-and-bound: stopping branch-and-bound
+branch-and-bound: time taken      = 8.95
+branch-and-bound: nodes processed = 2835
+branch-and-bound: nodes created   = 3325
+PCBProcessor: nodes processed     = 2835
+PCBProcessor: nodes branched      = 1662
+PCBProcessor: nodes infeasible    = 902
+PCBProcessor: nodes optimal       = 0
+PCBProcessor: nodes hit ub        = 271
+PCBProcessor: nodes with problems = 0
+reliability brancher: times called                = 1675
+reliability brancher: no. of problems in engine   = 0
+reliability brancher: times relaxation solved     = 452
+reliability brancher: times bounds changed        = 13
+reliability brancher: time in solving relaxations = 0.42
+SolutionPool: Number of solutions found = 8
+SolutionPool: Time first solution found = 0.72
+SolutionPool: Time best solution found  = 3.29
+Ipopt: total calls            = 18
+Ipopt: strong branching calls = 0
+Ipopt: total time in solving  = 2.38
+Ipopt: total time in presolve = 0.00
+Ipopt: time in str branching  = 0.00
+Ipopt: total iterations       = 639
+Ipopt: strong br iterations   = 0
+OsiLP: total calls            = 3317
+OsiLP: strong branching calls = 452
+OsiLP: total time in solving  = 5.84
+OsiLP: time in str branching  = 0.42
+OsiLP: total iterations       = 84512
+OsiLP: strong br iterations   = 7850
+LinearHandler: Statistics for presolve by Linear Handler:
+LinearHandler: Number of iterations           = 0
+LinearHandler: Time taken in initial presolve = 0.00
+LinearHandler: Time taken in node presolves   = 0.46
+LinearHandler: Number of variables deleted    = 0
+LinearHandler: Number of constraints deleted  = 0
+LinearHandler: Number of vars set to binary   = 0
+LinearHandler: Number of vars set to integer  = 0
+LinearHandler: Times variables tightened      = 0
+LinearHandler: Times constraints tightened    = 0
+LinearHandler: Times coefficients improved    = 0
+LinearHandler: Times binary variable relaxed  = 0
+LinearHandler: Changes in nodes               = 77407
+QGHandler: number of nlps solved                          = 18
+QGHandler: number of infeasible nlps                      = 1
+QGHandler: number of feasible nlps                        = 17
+QGHandler: number of nlps hit engine iterations limit     = 17
+QGHandler: number of cuts added                           = 33
+RCHandler: Number of times lower bound changed = 3132
+RCHandler: Number of times upper bound changed = 3247
+RCHandler: Time used = 0.01
+primal values:
+x141   -5.396718140
+x142   -5.946425166
+x143   -5.765809978
+x144   -5.607013547
+x145   -5.866793897
+x146   -5.881285910
+x147   -5.931576918
+x148   -5.480020925
+x149   -5.634989011
+x150   -4.924982095
+x1   7.219114581
+x2   7.235847449
+x3   7.078734878
+x4   7.958657958
+x5   7.662995046
+x6   7.575991767
+x7   8.145130127
+x8   8.160518247
+x9   7.464352663
+x10   7.856306932
+x111   0.000000000
+x112   0.000000000
+x113   0.000000000
+x114   0.000000000
+x115   0.000000000
+x116   0.000000000
+x117   0.000000000
+x118   0.000000000
+x119   0.000000000
+x120   0.000000000
+x121   1.098612268
+x122   1.386294337
+x123   1.098612268
+x124   0.693147164
+x125   0.693147164
+x126   1.098612268
+x127   1.098612268
+x128   0.693147209
+x129   1.098612268
+x130   0.693147209
+x132   8.749975158
+x133   9.022200126
+x134   9.037467598
+x135   9.037467598
+x136   8.794332054
+x137   8.799056577
+x138   8.799056577
+x139   8.799056577
+x140   9.004488362
+x11   6.154403844
+x12   5.751358776
+x13   5.238421152
+x14   6.124643576
+x15   5.605377340
+x16   5.298282423
+x17   5.673973107
+x18   5.974531871
+x19   5.897679771
+x20   6.352229476
+x21   6.298846107
+x22   6.431221950
+x23   6.719615057
+x24   6.734882528
+x25   6.224123583
+x26   6.140878140
+x27   6.496471507
+x28   6.267604134
+x29   6.389699283
+x30   5.914791525
+x31   5.667795818
+x32   6.245589219
+x33   6.096941131
+x34   6.667992108
+x35   6.186136355
+x36   6.491746984
+x37   5.978864328
+x38   5.625516598
+x39   5.793108553
+x40   6.701903225
+x41   5.671552077
+x42   5.607408612
+x43   5.932171401
+x44   6.203548735
+x45   6.077748911
+x46   5.904930812
+x47   6.058825812
+x48   6.102049877
+x49   6.332950553
+x50   5.867328093
+x51   5.798873710
+x52   5.631200950
+x53   6.203266140
+x54   6.454580566
+x55   6.486714808
+x56   5.898703312
+x57   6.425243775
+x58   5.693099450
+x59   6.256703030
+x60   5.811322703
+x61   6.060205266
+x62   6.005114913
+x63   5.275936388
+x64   5.830283832
+x65   6.469072579
+x66   5.916683625
+x67   6.032121751
+x68   6.496471507
+x69   5.660366192
+x70   5.909921414
+x71   6.318327300
+x72   6.447390088
+x73   5.914641772
+x74   5.797153776
+x75   5.657121438
+x76   6.405821419
+x77   5.634737268
+x78   5.495736004
+x79   6.097124457
+x80   6.172444046
+x81   6.129610686
+x82   5.603464570
+x83   5.411028064
+x84   5.589574372
+x85   6.053155349
+x86   6.189697410
+x87   5.591374718
+x88   6.217804342
+x89   5.752413853
+x90   6.288353583
+x91   5.765016429
+x92   6.007119803
+x93   5.851466859
+x94   6.263144359
+x95   6.445839805
+x96   5.788499523
+x97   6.496471507
+x98   6.009302871
+x99   5.847887017
+x100   5.552624480
+x101   5.104641875
+x102   5.406786259
+x103   5.329269766
+x104   5.551317058
+x105   5.978935863
+x106   5.503702847
+x107   5.735853297
+x108   6.335968955
+x109   5.514982626
+x110   5.623146770
+b151   1.000000001
+b152   1.000000001
+b153   1.000000001
+b154   1.000000001
+b155   1.000000001
+b156   1.000000001
+b157   1.000000001
+b158   1.000000001
+b159   1.000000001
+b160   1.000000001
+b161   0.000000000
+b162   0.000000000
+b163   0.000000000
+b164   0.000000000
+b165   0.000000000
+b166   0.000000000
+b167   0.000000000
+b168   0.000000000
+b169   0.000000000
+b170   0.000000000
+b171   0.000000000
+b172   0.000000000
+b173   0.000000000
+b174   0.000000000
+b175   0.000000000
+b176   0.000000000
+b177   0.000000000
+b178   0.000000000
+b179   0.000000000
+b180   0.000000000
+b181   0.000000000
+b182   0.000000000
+b183   0.000000000
+b184   0.000000000
+b185   0.000000000
+b186   0.000000000
+b187   0.000000000
+b188   0.000000000
+b189   0.000000000
+b190   0.000000000
+b191   0.000000000
+b192   0.000000000
+b193   0.000000000
+b194   0.000000000
+b195   0.000000000
+b196   0.000000000
+b197   0.000000000
+b198   0.000000000
+b199   0.000000000
+b200   0.000000000
+b201   0.000000000
+b202   0.000000000
+b203   0.000000000
+b204   0.000000000
+b205   0.000000000
+b206   0.000000000
+b207   0.000000000
+b208   0.000000000
+b209   0.000000000
+b210   0.000000000
+b211   0.000000001
+b212   0.000000001
+b213   0.000000001
+b214   0.000000001
+b215   0.000000001
+b216   0.000000001
+b217   0.000000001
+b218   0.000000001
+b219   0.000000001
+b220   0.000000001
+b221   0.000000001
+b222   0.000000001
+b223   0.000000001
+b224   1.000000000
+b225   1.000000000
+b226   0.000000001
+b227   0.000000001
+b228   1.000000000
+b229   0.000000001
+b230   1.000000000
+b231   1.000000000
+b232   0.000000001
+b233   1.000000000
+b234   0.000000001
+b235   0.000000001
+b236   1.000000000
+b237   1.000000000
+b238   0.000000001
+b239   1.000000000
+b240   0.000000001
+b241   0.000000001
+b242   1.000000000
+b243   0.000000001
+b244   0.000000001
+b245   0.000000001
+b246   0.000000001
+b247   0.000000001
+b248   0.000000001
+b249   0.000000001
+b250   0.000000001
+b251   0.000000001
+b252   0.000000001
+b253   0.000000001
+b254   0.000000001
+b255   0.000000001
+b256   0.000000001
+b257   0.000000001
+b258   0.000000001
+b259   0.000000001
+b260   0.000000001
+b261   0.000000001
+b262   0.000000001
+b263   0.000000001
+b264   0.000000001
+b265   0.000000001
+b266   0.000000001
+b267   0.000000001
+b268   0.000000001
+b269   0.000000001
+b270   0.000000001
+b271   1.000000000
+b272   1.000000000
+b273   1.000000000
+b274   1.000000000
+b275   1.000000000
+b276   1.000000000
+b277   1.000000000
+b278   1.000000000
+b279   1.000000000
+qg: best solution value = 769440.3758
+qg: best bound estimate from remaining nodes = inf
+qg: gap = 0.0000
+qg: gap percentage = 0.0000
+qg: time used (s) = 8.98
+qg: status of branch-and-bound: Optimal solution found

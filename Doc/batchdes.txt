@@ -1,0 +1,133 @@
+Environment: User provided options:
+  problem_file = batchdes.nl
+  log_level = 3
+  bnb_time_limit = 3600
+  nlp_engine = IPOPT
+Environment: End of user provided options.
+
+qg: Minotaur version 0.2 patch 1 git revision v0.2.1-84-g70423a7
+qg: Quesada-Grossmann (LP/NLP) algorithm for convex MINLP
+AMPLInterface: problem type is MINLP
+qg: time used in reading instance = 0.00
+qg: objective sense: minimize
+qg: handlers used in presolve:
+qg: LinearHandler (Handling linear constraints).
+qg: NlPresHandler (presolving nonlinear constraints).
+Presolver: Presolving ... 
+Presolver: Finished presolving.
+LinearHandler: Statistics for presolve by Linear Handler:
+LinearHandler: Number of iterations           = 4
+LinearHandler: Time taken in initial presolve = 0.00
+LinearHandler: Time taken in node presolves   = 0.00
+LinearHandler: Number of variables deleted    = 0
+LinearHandler: Number of constraints deleted  = 2
+LinearHandler: Number of vars set to binary   = 0
+LinearHandler: Number of vars set to integer  = 0
+LinearHandler: Times variables tightened      = 9
+LinearHandler: Times constraints tightened    = 0
+LinearHandler: Times coefficients improved    = 0
+LinearHandler: Times binary variable relaxed  = 0
+LinearHandler: Changes in nodes               = 0
+NlPresHandler: Statistics for presolve by NlPresHandler:
+NlPresHandler: Number of iterations           = 3
+NlPresHandler: Time taken in initial presolve = 0.00
+NlPresHandler: Number of variables deleted    = 0
+NlPresHandler: Number of constraints deleted  = 0
+NlPresHandler: Number of perspective reform.  = 0
+NlPresHandler: Times variables tightened      = 4
+NlPresHandler: Times constraints tightened    = 0
+NlPresHandler: Times coefficients improved    = 0
+NlPresHandler: Times quad. changed to conic   = 0
+NlPresHandler: Changes in nodes               = 0
+qg: handlers used:
+qg: LinearHandler (Handling linear constraints).
+qg: IntVarHandler (Handling integrality of variables).
+qg: QG Handler (Quesada-Grossmann)
+qg: RCHandler (Reduced Cost Strengthening)
+qg: brancher used = ReliabilityBrancher
+branch-and-bound: starting branch-and-bound
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+branch-and-bound: stopping branch-and-bound
+branch-and-bound: time taken      = 0.02
+branch-and-bound: nodes processed = 3
+branch-and-bound: nodes created   = 3
+PCBProcessor: nodes processed     = 3
+PCBProcessor: nodes branched      = 1
+PCBProcessor: nodes infeasible    = 0
+PCBProcessor: nodes optimal       = 0
+PCBProcessor: nodes hit ub        = 2
+PCBProcessor: nodes with problems = 0
+reliability brancher: times called                = 3
+reliability brancher: no. of problems in engine   = 0
+reliability brancher: times relaxation solved     = 8
+reliability brancher: times bounds changed        = 2
+reliability brancher: time in solving relaxations = 0.00
+SolutionPool: Number of solutions found = 1
+SolutionPool: Time first solution found = 0.02
+SolutionPool: Time best solution found  = 0.02
+Ipopt: total calls            = 2
+Ipopt: strong branching calls = 0
+Ipopt: total time in solving  = 0.02
+Ipopt: total time in presolve = 0.00
+Ipopt: time in str branching  = 0.00
+Ipopt: total iterations       = 31
+Ipopt: strong br iterations   = 0
+OsiLP: total calls            = 14
+OsiLP: strong branching calls = 8
+OsiLP: total time in solving  = 0.00
+OsiLP: time in str branching  = 0.00
+OsiLP: total iterations       = 43
+OsiLP: strong br iterations   = 14
+LinearHandler: Statistics for presolve by Linear Handler:
+LinearHandler: Number of iterations           = 0
+LinearHandler: Time taken in initial presolve = 0.00
+LinearHandler: Time taken in node presolves   = 0.00
+LinearHandler: Number of variables deleted    = 0
+LinearHandler: Number of constraints deleted  = 0
+LinearHandler: Number of vars set to binary   = 0
+LinearHandler: Number of vars set to integer  = 0
+LinearHandler: Times variables tightened      = 0
+LinearHandler: Times constraints tightened    = 0
+LinearHandler: Times coefficients improved    = 0
+LinearHandler: Times binary variable relaxed  = 0
+LinearHandler: Changes in nodes               = 1
+QGHandler: number of nlps solved                          = 2
+QGHandler: number of infeasible nlps                      = 0
+QGHandler: number of feasible nlps                        = 2
+QGHandler: number of nlps hit engine iterations limit     = 2
+QGHandler: number of cuts added                           = 4
+RCHandler: Number of times lower bound changed = 1
+RCHandler: Number of times upper bound changed = 2
+RCHandler: Time used = 0.00
+primal values:
+x13   6.437751650
+x14   5.772775168
+x15   2.302585052
+x16   1.791759433
+x10   7.159069515
+x11   7.564534619
+x12   7.824046011
+x17   0.693147169
+x18   0.693147192
+x19   0.000000000
+b1   0.000000001
+b2   0.000000000
+b3   1.000000001
+b4   1.000000000
+b5   1.000000000
+b6   0.000000000
+b7   0.000000000
+b8   0.000000001
+b9   0.000000000
+qg: best solution value = 167427.6433
+qg: best bound estimate from remaining nodes = inf
+qg: gap = 0.0000
+qg: gap percentage = 0.0000
+qg: time used (s) = 0.02
+qg: status of branch-and-bound: Optimal solution found
